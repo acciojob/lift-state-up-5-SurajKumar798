@@ -27,7 +27,7 @@ function LoginForm({ isLoggedIn, onLogin }){
 );
 }
 const App = () => {
-  const [isLoggedIn, setIsLoggedIn] = useStatae(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleLogin=()=>{
     setIsLoggedIn(true);
